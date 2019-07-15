@@ -6,7 +6,7 @@ $red: rgb(255, 13, 13);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    height: 100vh;   
+    
 }
 
 .h1 {
@@ -33,3 +33,6 @@ $red: rgb(255, 13, 13);
 @import "_header";
 @import "_nav";
 @import "_offer";
+@import "_numbers";
+@import "_why";
+@import "_test-drive";

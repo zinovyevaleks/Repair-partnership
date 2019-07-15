@@ -1,0 +1,22 @@
+.numbers {
+    padding-top: 90px;
+    padding-bottom: 90px;
+    background-image: linear-gradient(top, rgba(0,0,0,0.80), rgba(0,0,0,0.80));
+
+    .h1 {
+        color: $white;
+        margin-bottom: 105px;
+    }
+
+    .counter {
+        color: $red;
+        font-size: 62px;
+        font-weight: 700;
+        padding-top: 8px;
+        padding-bottom: 20px;
+    }
+
+    .p {
+        color: $white;
+    }
+}

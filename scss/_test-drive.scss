@@ -1,0 +1,24 @@
+.test-drive {
+    padding-top: 90px;
+    padding-bottom: 90px;
+    background-image: linear-gradient(top, rgba(0,0,0,0.80), rgba(0,0,0,0.80));
+
+    .h1 {
+        color: $white;
+        margin-bottom: 105px;
+    }
+
+    .p {
+        font-size: 22px;
+        color: $white;
+        line-height: 33px;
+    }
+
+    .red {
+        font-weight: bold;
+    }
+
+    .btn {
+        margin-top: 70px;
+    }
+}
