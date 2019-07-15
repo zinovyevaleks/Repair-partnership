@@ -1,0 +1,22 @@
+.offer {
+    padding-top: 90px;
+    padding-bottom: 165px;
+
+    .h1 {
+        margin-bottom: 90px;
+    }
+
+    &-card {
+        width: 100%;
+        padding: 30px 30px 40px;
+        background-color: rgb(242, 242, 242);
+        border-radius: 5px;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 10px 0px;
+        margin-bottom: 30px;
+
+        &-img {
+            max-width: 65px;
+            padding-bottom: 85px;
+        }
+    }
+}

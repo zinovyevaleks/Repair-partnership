@@ -1,5 +1,23 @@
-.nav {
-    position: fixed;
-    width: 100%;
-    line-height: 60px;
+.navbar {
+
+    &-brand {
+        margin-left: 2rem;
+    }
+    
+    &.bg-trans {
+        background-color: rgba(240,240,240,0.30);
+        // background-color: red;
+    }
+
+    .navbar-nav .nav-link {
+        color: #000000;
+        font-size: 18px;
+        font-weight: 700;
+        padding-right: 1.2rem;
+        padding-left: 1.2rem;
+    }
+
+    .contacts {
+        margin-right: 2rem;
+    }
 }

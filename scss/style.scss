@@ -1,1 +1,35 @@
+$white: #fff;
+$red: rgb(255, 13, 13);
+
+.main-wrapper {
+    background-image: url('../img/photo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;   
+}
+
+.h1 {
+    font-weight: 700;
+    font-size: 62px;
+}
+
+
+
+.red {
+    color: $red;
+}
+
+.btn {
+    color: $white;
+    background-color: $red;
+    text-transform: uppercase;
+    font-weight: 700;
+    width: 100%;
+}
+
+
+
+@import "_header";
 @import "_nav";
+@import "_offer";
