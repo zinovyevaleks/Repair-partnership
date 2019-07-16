@@ -17,7 +17,11 @@
         padding-left: 1.2rem;
     }
 
-    .contacts {
+    .nav-contacts {
         margin-right: 2rem;
+        a {
+            color: $white;
+            background-color: transparent;
+        }
     }
 }

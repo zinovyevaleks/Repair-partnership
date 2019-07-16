@@ -1,0 +1,60 @@
+.results {
+    background-color: #fff;
+    padding-top: 90px;
+    padding-bottom: 90px;
+
+    .h1 {
+        margin-bottom: 90px;
+    }
+
+    .divider {
+        height: 1px;
+        margin-top: 8px;
+        margin-bottom: 8px;
+        &-left {
+            background-image: linear-gradient(right, #000000, rgba(0,0,0,0));
+        }
+        &-center {
+            background: #000000;
+        }
+        &-right {
+            background-image: linear-gradient(left, #000000, rgba(0,0,0,0));
+        }
+    }
+
+    .h2 {
+        margin-top: 30px;
+        margin-bottom: 90px;
+    }
+
+    .slick-dotted.slick-slider {
+        margin-bottom: 80px;
+    }
+
+    .slick-arrow {
+        background-color: rgba(255,13,13,0.40);
+        width: 60px;
+    height: 60px;
+    border-radius: 100px;
+    transition: background-color ease-in-out .2s;
+    }
+
+    .slick-prev,
+    .slick-next {
+        z-index: 10 ;
+    }
+
+    .slick-prev:hover, .slick-prev:focus, .slick-next:hover, .slick-next:focus {
+        background-color: red;
+    }
+
+
+    .slick-dots li button:before {
+        font-size: 30px;
+        
+    }
+
+    .slick-dots li.slick-active button:before {
+        color: red;
+    }
+}
