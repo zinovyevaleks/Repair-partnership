@@ -1,4 +1,7 @@
 $(document).ready(function () {
+
+  // Карусели
+
   $('.slider-1').slick({
     dots: true,
     infinite: true,
@@ -10,9 +13,13 @@ $(document).ready(function () {
     dots: true,
     infinite: true,
     centerMode: true,
-    centerPadding: '60px',
-    slidesToShow: 1,
+    // centerPadding: '60px',
+    slidesToShow: 5,
     variableWidth: true
   });
+
+  // маска телефона
+
+  $(".phone-mask").mask("+7-___-__-__");
 
 });

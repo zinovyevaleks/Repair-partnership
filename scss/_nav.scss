@@ -15,6 +15,12 @@
         font-weight: 700;
         padding-right: 1.2rem;
         padding-left: 1.2rem;
+        transition: color 200ms linear;
+
+        &:hover {
+            color: red;
+            text-decoration: underline;
+        }
     }
 
     .nav-contacts {

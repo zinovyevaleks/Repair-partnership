@@ -14,6 +14,11 @@ $red: rgb(255, 13, 13);
     font-size: 62px;
 }
 
+@media (max-width: 540px) {
+    .h1 {
+        font-size: 28px;
+    }
+  }
 
 
 .red {
