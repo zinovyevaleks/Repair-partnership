@@ -6,20 +6,12 @@
     .h1 {
         padding-bottom: 90px;
     }
-    
-    .slick-slide img {
-        margin-left: 20px;
-        margin-right: 20px;
-    }
-    .slick-prev:before, 
-    .slick-next:before {
-        color: #000;
-    }
 
-
-    .slick-dots li button:before {
-        font-size: 30px;
-        
+    .owl-stage-outer {
+        width: auto;
+        max-width: 309px;
+        margin-right: auto;
+        margin-left: auto;
     }
 
 }

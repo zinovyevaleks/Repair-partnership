@@ -5,8 +5,7 @@
     }
     
     &.bg-trans {
-        background-color: rgba(240,240,240,0.30);
-        // background-color: red;
+        background-color: rgba(240, 240, 240, 0.603)
     }
 
     .navbar-nav .nav-link {
@@ -30,4 +29,21 @@
             background-color: transparent;
         }
     }
+
+    @media (max-width: 992px) {
+        &.bg-trans {
+            background-color: rgba(240, 240, 240, 0.603);
+        }
+
+        .navbar-nav .nav-link {
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+      }
+
+    @media (max-width: 540px) {
+        &-brand {
+            margin-left: 0;
+        }
+      }
 }

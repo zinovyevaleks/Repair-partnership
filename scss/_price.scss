@@ -3,7 +3,15 @@
     padding-top: 90px;
     padding-bottom: 90px;
 
+    .h1 {
+        margin-bottom: 50px;
+    }
+
     .p {
         font-weight: bold;
+    }
+    
+    .table-wrapper {
+        overflow: auto;
     }
 }
